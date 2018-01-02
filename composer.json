@@ -1,0 +1,26 @@
+{
+  "name": "ionscript/ions-compress",
+  "description": "a component of compressing zip,gzip..",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Serge Shportko",
+      "email": "ionscript.inc@gmail.com"
+    }
+  ],
+  "keywords": [
+    "ions",
+    "uri"
+  ],
+  "homepage": "https://github.com/ionscript/ions-compress",
+  "autoload": {
+    "psr-4": {
+      "Ions\\Compress\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^5.5 || ^7.0"
+  },
+  "autoload-dev": {},
+  "require-dev": {}
+}
